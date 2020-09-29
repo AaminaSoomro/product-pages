@@ -1,0 +1,335 @@
+body
+{
+	margin : 0;
+	background-color: aqua;
+	font-family: AvenirNext,Microsoft YaHei,MicrosoftJhengHei,STHeiti,MingLiu,sans-serif,WebRupee;
+}
+.navitem
+{
+	float: left;
+	margin-right: 100px;
+	padding-top: 20px;
+	color: white;
+	font-size: 14px;
+	
+}
+.navitem-active
+{
+	float: left;
+	margin-right: 100px;
+	padding-top: 20px;
+	color: green;
+	font-size: 14px;
+}	
+li
+{
+	display : inline;
+}
+.subnav
+{
+	height: 60px;
+	background: #252525;
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+	color: white;
+}
+.left h3
+{
+	margin: 0px;
+	color: white;
+	padding-top: 20px;
+	padding-left: 100px;
+}
+.sublist
+{
+	padding-right: 65px;
+}
+.sublistactive
+{
+	padding-right: 65px;
+	color: green;
+}
+.bottomnav
+{
+	height: 100px;
+	padding-top: 10px;
+	width: 100%;
+	padding-left: 2%;
+	margin: auto;
+	background-color: white;
+}
+.bottomnavlist
+{
+	text-decoration: none;
+	color: black;
+	padding-right: 3%;
+	line-height: 2;
+	font-weight: bold;
+}
+.bottomnavlistactive
+{
+	text-decoration: none;
+	color: orange;
+	padding-right: 3%;
+	font-weight: bold;
+}
+.large
+{
+	background-image: url("images/banner.JPG");
+	background-color:#0a0a0a;
+	padding: 0px 20px 80px 20px;
+	text-align: center;
+	height: 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.large h1
+{
+	color: white;
+	padding-top: 180px;
+	font-weight: 400;
+}
+h3
+{
+	color: #666;
+	font-weight: 400;
+}
+p
+{
+	color: #555;
+	font-weight: 400;
+}
+main
+{
+	background-color:#0a0a0a;
+}
+.leftone
+{
+	float: left;
+	background-color:#0a0a0a;
+	padding-left: 10%;
+	padding-top: 3%;
+	width: 35%;
+	height: 70%;
+}
+.rightone
+{
+	float: right;
+	background-color:#0a0a0a;
+	padding-top: 15%;
+	padding-right: 30px;
+	width: 35%;
+	margin: auto;
+	height: 70%;
+}
+.image
+{
+	height: 80%;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 200px;
+}
+.large2nd
+{
+	color: white;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: 550px;
+}
+.disc
+{
+	background-color: black;
+	color: #555;
+	font-size: 14px;
+	padding: 30px 50px 30px 50px;
+}
+.upperdiv
+{
+	background-image: url("images/img4.jpg");
+	width: 100%;
+	background-repeat:no-repeat;
+	box-sizing: border-box;
+	height: 500px;
+	padding: 3% 10% 3% 10%;
+}
+.upperdiv h1
+{
+	color: white;
+}
+.upperdiv p
+{
+	color: gray;
+	font-size: 14px;
+}
+.bottomdiv
+{
+	width: 100%;
+	background:url(images/v19-performance-charge-img6-md.png);
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	height: 500px;
+	padding: 3% 10% 3% 10%;
+}
+.bottomdiv h1
+{
+	color: white;
+}
+.bottomdiv p
+{
+	color: gray;
+	margin-bottom: 70px;
+	font-size: 14px;
+}
+.bottomdiv ul
+{
+	width: 75%;
+}
+.bottomdiv ul li
+{
+	font-size: 21px;
+	color: gray;
+	margin-right: 5%;
+}
+.performupperdiv
+{
+	background: black;
+	width: 100%;
+	box-sizing:border-box;
+	padding: 3% 10% 3% 10%;
+}
+.performupperdiv h1
+{
+	color: white;
+}
+.performupperdiv p
+{
+	color: gray;
+	width: 100%;
+	margin-bottom: 70px;
+	font-size: 17px;
+}
+.perfimg1
+{
+	width: 30%;
+	margin-bottom: 50px;
+}
+.perftext1
+{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+	padding-left: 10px;
+	margin: auto;
+}
+.perftext1 h2
+{
+	color: violet;
+	line-height: 1;
+}
+.perftext1 p
+{
+	color: gray;
+	line-height: .3;
+	font-size: 14px;
+}
+.perftext2
+{
+	float: right;
+	width: 50%;
+	box-sizing:border-box;
+	padding-right: 10px;
+	margin: auto;
+}
+.perftext2 h2
+{
+	color: violet;
+	line-height: .7;
+}
+.perftext2 p
+{
+	color: gray;
+	font-size: 14px;
+}
+.performbottom
+{
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+	height: 600px;
+	background: black;
+}
+.designupperdiv
+{
+	background-image: url("images/design1banner.png");
+	width: 100%;
+	height: 500px;
+	box-sizing:border-box;
+	padding: 3% 10% 3% 10%;
+}
+h1
+{
+	color: white;
+}
+.design-medium
+{
+	height: 600px;
+	background-image: url("images/design2banner.jpg");
+	background-repeat: no-repeat;
+	padding: 3% 15% 3% 15%;
+	box-sizing: border-box;
+}
+.rone img
+{
+	padding: 10% 5% 5% 20%;
+	height: 70%;
+	width: 100%;
+	margin-auto;
+	box-sizing: border-box;
+}
+.designbottom
+{
+	height: 600px;
+	background: white;
+}
+.lone
+{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding: 7% 3% 2% 10%;
+}
+.lone h1
+{
+	color: black;
+}
+.rone
+{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
